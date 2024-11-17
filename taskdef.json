@@ -4,15 +4,15 @@
       {
         "portMappings": [
           {
-            "hostPort": 5000,
+            "hostPort": 3000,
             "protocol": "tcp",
-            "containerPort": 5000
+            "containerPort": 3000
           }
         ],
 
         "image": "<IMAGE1_NAME>",
         "essential": true,
-        "name": "app-tutorial-cinco"
+        "name": "app-entrega4"
       }
     ],
 
@@ -22,5 +22,5 @@
     "networkMode": "awsvpc",
     "cpu": "512",
     "memory": "1024",
-    "family": "tutorial-5-tarea"
+    "family": "entrega4-tarea"
   }

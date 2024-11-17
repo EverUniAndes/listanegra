@@ -7,8 +7,8 @@
           "Properties": {
             "TaskDefinition": "<TASK_DEFINITION>",
             "LoadBalancerInfo": {
-              "ContainerName": "app-tutorial-cinco",
-              "ContainerPort": 5000
+              "ContainerName": "app-entrega4",
+              "ContainerPort": 3000
             }
           }
         }
