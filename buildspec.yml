@@ -7,6 +7,7 @@ phases:
       - aws ecr get-login-password --region sa-east-1 | docker login --username AWS --password-stdin 539247488585.dkr.ecr.sa-east-1.amazonaws.com
   build:
     commands:
+      - pytest --cov-fail-under=70 --cov=src
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t listanegra .
